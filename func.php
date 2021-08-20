@@ -7,7 +7,7 @@ function formatTime(): array
 {
     return [
         'hours' => '10',
-        'minutes' => '20';
+        'minutes' => '20'
 }
 
 $a = formatTime();
