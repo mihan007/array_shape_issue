@@ -5,8 +5,9 @@ ArrayShape issue
 function formatTime(): array
 {
     return [
-    'hours' => '10',
-    'minutes' => '20';
+        'hours' => '10',
+        'minutes' => '20'
+    ]
 }
 ````
 2. If we call function `formatTime` at file 1 and use it results then PhpStorm autocomplete help use correct array key and 
